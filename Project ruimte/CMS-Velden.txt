@@ -1,0 +1,45 @@
+De CMS-velden die ik voorstel voor een mogelijke marketeer zijn de volgende:
+- De label. In de code heeft dit de klasse "label". Deze is optioneel, omdat sommige eindgebruikers een
+artikel willen met alleen de titel en tekst. De default waarde is leeg. Voor helptekst voor de marketeer 
+zou zijn: "Tekst voor een label aan de bovenkant van het artikel. " Beperkingen voor dit veld zou een maximum
+letter aantal zijn, anders ziet het artikel er niet meer goed uit.
+- De titel. IN de code heeft dit de klasse "Title". Deze is verplicht. De reden waarom is omdat je anders niet
+een goede manier heb om te identificeren wat voor artikel dit is. The default value would I set on "Title."
+De reden waarom is zodat een eventuele marketeer dan weet dit de titel is die hij nog moet aanpassen. Voor 
+hulptekst zou ik zetten: "This is the title. Vervang dit met de gewenste titel voor deze pagina." Hiermee duiden 
+we aan dat het de titel is en dat het aangepast kan worden naar wat de marketeer wenst. Beperkingen die ik zou 
+instellen voor dit veld is een maximum letter aantal. Anders, word de pagina niet mooi, and duiden we aan that 
+de body tekst niet in de titel moet.
+- The body text. In the code, this has the class "bodyText." Dit is verplicht, want anders maak je een pagina 
+voor geen reden. Hier moet tekst instaan om informatie te delen. De default waarde zou zijn: "Hier moet de 
+tekst staan voor de pagina. "Hiermee motiveren we de marketeer om er tekst in te zetten. De hulptekst lijkt 
+hier ook op. Dit zal zijn: "Vul hier de gewenste tekst in voor de pagina." Hiermee duiden we aan dat daar de 
+tekst moet staan voor de pagina. Ik zou hier niet snel beperkingen instellen.
+- De knoppen. In de code heeft dit de klasse "button". Dit is optioneel, want niet elk artikel heeft als doel 
+voor de websitegebruiker om te interageren met een knop. De default waarde zou ik instellen als: "Knopnaam" 
+als tekst voor de button, en "vul hier link in" voor de interactie die de knop levert. Helptekst die ik zou 
+implementeren is: "Vul hier de naam in van de knop en een link naar de gewenste plek wanneer er op de knop 
+wordt gedrukt." Met deze tekst duiden we aan dat de naam en interactie aangepast kan worden. Een beperking 
+die ik zou implementeren is that there is a letter maximum on the name of the button. Anders wordt het een hele 
+long knop.
+- Een item. In de code heeft dit de klasse "item". Er zijn verschillende aspecten wat je kan veranderen in 
+an item. Je hebt de titel, beschrijving, afbeelding en ten slotte de knop. Alles, behalve de afbeelding, is 
+verplicht. De reden waarom is dat je anders geen reden heb om een item te maken. Met een item wil je dat de 
+gebruiker is iets doet, en dat is de knop indrukken. Daar heb je een titel for the name, a description, 
+voor uitleg, en een knop, om de actie uit te voeren, is nodig. De afbeelding is niet perse nodig. De reden 
+waarom is omdat je misschien niet een manier heb om de actie aan te duiden met een afbeelding. Ik stel zelf 
+voor dat er een mogelijkheid is voor de marketeer om, in plaats van een afbeelding, een effen kleur te kunnen 
+gebruiken. De default waarden zijn als volgt. De titel krijgt "Title", de beschrijving krijgt "description", 
+de knop krijgt "Vul hier de link in voor het activeren van de knop" en ten slotte is de 
+afbeelding een effen kleur. This color is navy blue. De reden voor de afbeelding is zodat de marketeer niet 
+perse een afbeelding nodig heeft en dat het ook een kleur kan zijn. De reden voor de titel en beschrijving is 
+zodat het aanduidt dat dit de titel en beschrijving zijn. De reden voor de knop is dat er nu geen naam is om te 
+implementeren, door alleen te vertellen over de functie van de knop snapt de marketeer dat er geen naam hoeft 
+dit keer. Helptekst hierbij zijn hetzelfde als in de vorige CMS-velden. Voor de titel is het "Dit is de titel." 
+Vervang dit met de gewenste titel voor de item. " Voor de beschrijving zou ik gebruiker: "Vul hier de gewenste 
+beschrijving voor het item. "Voor de afbeelding zou ik gebruiker: 'Zet hier de gewenste afbeelding voor de item.'" 
+Voor de knop zou ik hetzelfde gebruiken als wat er staat bij default. De reden waarom is omdat de default al een 
+prima uitleg is over hoe je de knop moet instellen. Ten slotte de beperkingen. Voor de titel en beschrijving zou 
+een letter maximum weer verstandig zijn. Anders wordt de item veel te groot. Voor de afbeelding is een beperking. 
+handig dat het bestandtype is die door veel browsers word ondersteund, dat het een maximum grote heeft voor het 
+scalen van de afbeelding in de item en dat de afbeelding maar zoveel MB mag zijn, anders duurt het laden erg lang. 
